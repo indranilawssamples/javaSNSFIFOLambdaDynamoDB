@@ -1,0 +1,5 @@
+java -classpath <Location of Project>/sns_fifo_message_sender_json/target/json-sns-fifo-producer-0.0.1-SNAPSHOT.jar sns.fifo.producer.JsonSNSFIFOProducer <Name of SNS FIFO Topic Without .fifo> <Unique String to represent this batch of messages> <Number of messages to send out in this batch>
+
+Example:
+
+java -classpath /home/ec2-user/environment/JavaExamples/sns_fifo_message_sender_json/target/json-sns-fifo-producer-0.0.1-SNAPSHOT.jar sns.fifo.producer.JsonSNSFIFOProducer LambdaSNSFIFOTopicDynamoJavaSAM TestMessage01 100

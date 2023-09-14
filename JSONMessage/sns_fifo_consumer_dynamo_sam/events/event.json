@@ -1,0 +1,74 @@
+{
+    "records": [
+        {
+            "messageId": "0c48de76-e8b3-42be-8215-132d2ffbec72",
+            "receiptHandle": "AQEBhAqVrcIYmq1BEvsE9+h43x7GAOC1Oo+jgca24bwI00xH2AUeINK3wT9pXhZ/asx3MNbZl1HQ447BW96YEHschIIF7WzFKB9U61FSptfdFxn5/C6KYDQyyBjiHysRDaAv0pX0INnq7zBqExwAfX/eFAkebzdUcNfu8/OKSN11EPiwSBkkhx+k+peNiSPT/J2KiA5VC8tKcH/DFO0fqZcX7LRwqVZEMnn30n0Nrxj4gMMLYPW5NbDbUXHXkFepeGsD0p1o77umprJfIC/5h7Drd+Galif6fHDZuWARqZROkppewEOmR6azyHQ8G7h4BNex",
+            "body": "{\"firstname\":\"Minna\",\"lastname\":\"Amigon\",\"company\":\"\\\"Dorl, James J Esq\\\"\",\"street\":\"2371 Jerrold Ave\",\"city\":\"Kulpsville\",\"county\":\"Montgomery\",\"state\":\"PA\",\"zip\":\"19443\",\"homePhone\":\"215-874-1229\",\"cellPhone\":\"215-422-8694\",\"email\":\"minna_amigon@yahoo.com\",\"website\":\"http://www.dorljamesjesq.com\"}",
+            "md5OfBody": "1ef18686545824284979f91d7333ac58",
+            "md5OfMessageAttributes": "6d0df3ec8b83b2d737dd4ba3076f7f54",
+            "eventSourceArn": "arn:aws:sqs:us-west-2:664251831272:LambdaSNSToSQSFIFOQueueDynamoJavaSAM.fifo",
+            "eventSource": "aws:sqs",
+            "awsRegion": "us-west-2",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "SentTimestamp": "1689977590584",
+                "SequenceNumber": "18879378336899055872",
+                "MessageGroupId": "TestMessage13-07-21-2023-22-07-31-PA",
+                "SenderId": "AIDASRT3EJNNEBNPWAHTG",
+                "MessageDeduplicationId": "TestMessage13-07-21-2023-22-07-31-10",
+                "ApproximateFirstReceiveTimestamp": "1689977590615"
+            },
+            "messageAttributes": {
+                "MessageKey": {
+                    "stringValue": "TestMessage13-07-21-2023-22-07-31",
+                    "binaryValue": null,
+                    "stringListValues": [],
+                    "binaryListValues": [],
+                    "dataType": "String"
+                },
+                "MessageNumber": {
+                    "stringValue": "10",
+                    "binaryValue": null,
+                    "stringListValues": [],
+                    "binaryListValues": [],
+                    "dataType": "String"
+                }
+            }
+        },
+        {
+            "messageId": "8d5704f2-ecd7-4a0c-9e0a-9476ae10936d",
+            "receiptHandle": "AQEBz9e1nAEwkZ+sFcNbZiYkEg8kVwYzuNkHYnWMWfp53vSGAF+OTxEbTKgr0QfkEmqaL2aXRnF1xxcrjBbhTXk7W7KPiKmtl+8G06r8S/Ao1ECC7g3q9o6reShSdZzV1XyGxqYlG6TMfwG1wy0XxrGvp/Tt/iCNYVbL3ZSeKHk47ahaCZDSFUyR7LNWB0hzzdFxTHXRTGvR9PzRXSt9MKlGGOSGUPdU1wdl6c1W/TQwMIbsNCLGOObWamJYk8koKxezTyJYyJ8ziZUhd2gWNUKKJDB3el2fMaJRes0OcWjkEwRNLncZYO7r8pnreBOAPZ+V",
+            "body": "{\"firstname\":\"Abel\",\"lastname\":\"Maclead\",\"company\":\"Rangoni Of Florence\",\"street\":\"37275 St  Rt 17m M\",\"city\":\"Middle Island\",\"county\":\"Suffolk\",\"state\":\"NY\",\"zip\":\"11953\",\"homePhone\":\"631-335-3414\",\"cellPhone\":\"631-677-3675\",\"email\":\"amaclead@gmail.com\",\"website\":\"http://www.rangoniofflorence.com\"}",
+            "md5OfBody": "e0113d8a717033df6d10ab8ab9515437",
+            "md5OfMessageAttributes": "b7f954435d30f026606188ca44d3c627",
+            "eventSourceArn": "arn:aws:sqs:us-west-2:664251831272:LambdaSNSToSQSFIFOQueueDynamoJavaSAM.fifo",
+            "eventSource": "aws:sqs",
+            "awsRegion": "us-west-2",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "SentTimestamp": "1689977590605",
+                "SequenceNumber": "18879378336904432384",
+                "MessageGroupId": "TestMessage13-07-21-2023-22-07-31-NY",
+                "SenderId": "AIDASRT3EJNNEBNPWAHTG",
+                "MessageDeduplicationId": "TestMessage13-07-21-2023-22-07-31-11",
+                "ApproximateFirstReceiveTimestamp": "1689977590615"
+            },
+            "messageAttributes": {
+                "MessageKey": {
+                    "stringValue": "TestMessage13-07-21-2023-22-07-31",
+                    "binaryValue": null,
+                    "stringListValues": [],
+                    "binaryListValues": [],
+                    "dataType": "String"
+                },
+                "MessageNumber": {
+                    "stringValue": "11",
+                    "binaryValue": null,
+                    "stringListValues": [],
+                    "binaryListValues": [],
+                    "dataType": "String"
+                }
+            }
+        }
+    ]
+}
